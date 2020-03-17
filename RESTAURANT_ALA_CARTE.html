@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <title>
+        RESTAURANT - ALA CARTE
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .header {
+            padding: 80px;
+            /* some padding */
+            text-align: center;
+            /* center the text */
+            background: #030303;
+            /* green background */
+            color: white;
+            /* white text color */
+            background-image: url(https://c.tribune.com.pk/2017/02/1326848-___n-1487147373.jpg);
+        }
+
+        /* Increase the font size of the <h1> element */
+        .header h1 {
+            font-size: 50px;
+        }
+
+        /*now the css of header is done*/
+
+        /* Style the top navigation bar */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the navigation bar links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: thickness;
+        }
+
+        /* Right-aligned link */
+        .navbar a.right {
+            float: right;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #463030;
+            padding: 20px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: rgb(238, 151, 151);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>RESTAURANT - ALA CARTE</h1>
+        <p> A Place for All </p>
+
+    </div>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Main Menu</a>
+        <a href="#" class="right">Reservation</a>
+    </div>
+
+    <div class="main">
+        <h1> <b> About Us</b></h1>
+        <P> A restaurant , or an eatery, is a business that prepares and
+            serves food and drinks to customers.Meals are generally served and eaten on the premises, but many
+            restaurants also offer take-out and food delivery services. Restaurants vary greatly in appearance and
+            offerings, including a wide variety of cuisines and service models ranging from inexpensive fast food
+            restaurants and cafeterias, to mid-priced family restaurants, to high-priced luxury establishments. </P>
+
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0a/7b/7b/c6/restaurant-view.jpg" alt="img1.jpg"
+            width="650px" height="400px">
+        <img src="https://c.tribune.com.pk/2017/02/1326848-___n-1487147373.jpg"
+            alt="img4.jpg" width="650px" height="400px">
+    </div>
+
+
+    <br>
+    <br>
+
+
+
+    <div class="container">
+        <h2> BOOK YOUR TABLE</h2>
+        <fieldset>
+            <form action="">
+                <label for="name" style="color: #ccc;"> Name: </label>
+                <input type="text" placeholder="Enter your name "><br> <br>
+
+                <label for="n_people" style="color: #ccc;"></label> No of People : </label>
+                <input type="number" placeholder="enter the no of persons"> <br> <br>
+
+                <label for="date" style="color: #ccc;"> Date of Dining :</label>
+                <input type="date" placeholder="please inform the date"> <br> <br>
+
+                <label for="id_card" style="color: #ccc;"> ID CARD :</label>
+                <input type="file" placeholder="12345-67891011-2"> <br> <br>
+
+                <label for="submit" style="color: #ccc;">SUBMIT</label>
+                <input type="submit" value="Submit">
+
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>
